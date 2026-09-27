@@ -25,6 +25,14 @@ Expermients with DVC:
 18> Now git add, commit, push
 
 
+For S3 bucket:
+- pip install dvc-s3
+- dvc remote add "dvc remote add -d myremote s3://mlops-dvc-with-s3"
+- Explicitly we dont hv to add data dir because now as we are using dvc.yml it will track all the data files from there
+- dvc commit and push
+
+
+
 
 
 

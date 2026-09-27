@@ -38,3 +38,5 @@ metrics:
 plots:
 - dvclive/plots/metrics:
     x: step
+params:
+- dvclive/params.yaml
